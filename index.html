@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="styleAdjust.css">
+</head>
+<body>
+    <form>
+        <fieldset class="applicantName">
+            <legend>Applicant Name</legend>
+
+            
+                <ul class="firstNameFlex">
+                    <li class="firstName">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" placeholder="First Name" name="firstName">
+                    </li>
+                
+                    <li class="middleInitial">
+                        <label for="middleInitial">Middle:</label>
+                        <input type="text" placeholder="Initial" name="middleInitial">
+                    </li>
+                    <li class="lastName">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" placeholder="Last Name" name="lastName">
+                    </li>
+                </ul>
+        </fieldset>
+
+        <fieldset class="personalAndEmployment">
+            <legend>Personal and Employment</legend>
+            <label for="applicantAddress">Address:</label>
+            <input type="text" placeholder="Address" name="applicantAddress">
+            <label for="occupation">Occupation:</label>
+            <input type="text" placeholder="Occupation" name="occupation">
+            <label for="employerAddress">Employer Address:</label>
+            <input type="text" placeholder="Employer Address" name="employerAddress">
+        </fieldset>
+            
+        <fieldset class="loanInformation"> 
+            <legend>Loan Information</legend> 
+
+            <label for="loanType">Loan Type:</label>
+            <select name="loanType">
+              <option value="commercial">Commercial</option> 
+              <option value="realEstate">Real estate</option>
+              <option value="personal">Personal</option>
+              <option value="mortgage">Mortgage</option>
+            </select>
+            
+            <label for="loanAmount">Desired Loan Amount:</label>
+            <input type="number" placeholder="$0" name="loanAmount">
+            
+            <div class="flexedOptions">
+            <section class="loanLength">
+            <label>Loan Length:</label>   
+                <ul>   
+                    <li>   
+                        <input type="radio" name="loanLength" id="years5" value="years5" selected:"true"/>
+                        <label for="years5" class="labelLight">5 years</label>
+                    </li> 
+                    <li>
+                        <input type="radio" name="loanLength" id="years15" value="years15"/>
+                        <label for="years15" class="labelLight">15 years</label>
+                    </li>  
+                    <li>
+                        <input type="radio" name="loanLength" id="years30" value="years30"/>
+                        <label for="years30" class="labelLight">30 years</label>
+                    </li>
+                </ul>
+            </section>
+            
+            <section class="specialConditions">
+            <label>Special Conditions:  </label>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="downPayment" value="downPayment"/>
+                        <label for="downPayment" class="labelLight">I have a down payment</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="OOS" value="OOS"/>
+                        <label for="OOS" class="labelLight">Out-of-state resident</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="married" value="married"/>
+                        <label for="married" class="labelLight">Married</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="cosigned" value="cosigned"/>
+                        <label for="cosigned" class="labelLight">Loan will be co-signed</label>
+                    </li>
+                </ul>
+            </section>
+            </div>
+
+            <label>Other comments:</label>
+            <textarea placeholder="Other comments"></textarea>
+        </fieldset>  
+
+        <fieldset class="applicantContact">
+            <legend>Applicant Contact</legend>
+            <label for="email">Email Address:</label>
+            <input type="email" placeholder="your@email.com" name="email">
+            <label for="telephone">Telephone:</label>
+            <input type="tel" placeholder="555-555-5555" name="telephone">
+            <label for="linkedIn">LinkedIn URL:</label>
+            <input type="url" placeholder="www.linkedin.com/in/YOU" name="linkedIn">
+        </fieldset>
+
+        <a href="#" class="button">Submit</a>
+
+    </form>
+
+</body>
+</html>

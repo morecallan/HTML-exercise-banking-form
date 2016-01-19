@@ -1,0 +1,175 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+}
+
+form {
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  width: 90%;
+}
+
+fieldset {
+    border: .15em solid gray;
+    margin: .8em auto;
+    border-radius: 5px;
+    width: 95%;
+}
+
+legend {
+    color: #369;
+    padding: .15em;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  outline: 0;
+  padding: 10px 2px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-indent: 1%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  outline: 0;
+  padding: 10px 2px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-indent: 1%;
+  height: 40%;
+}
+
+label {
+    width: 100%;
+    display: block;
+    /*display: inline-block;*/
+}
+
+
+/****************** Applicant Name ********************/
+.applicantName {
+    padding-bottom: 0;
+}
+
+.firstNameFlex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.firstName {
+  flex: 0 0 30%;
+}
+.middleInitial {
+  flex: 0 0 20%;
+}
+
+.lastName {
+  flex: 0 0 40%;
+}
+
+/****************** Personal and Employment  ********************/
+
+
+
+
+/****************** Loan Information  ********************/
+
+
+label.labelLight {
+  display: inline;
+}
+
+.loanLength li{
+  padding: .5%;
+  font-size: 15px;
+}
+
+.loanLength ul{
+  margin: .2em 0 .7em;
+  background-color: #e8eeef;
+  border-radius: 5px;
+}
+
+.specialConditions li{
+  padding: .5%;
+  font-size: 14px;
+}
+
+.specialConditions ul{
+  margin: .2em 0 .7em;
+  background-color: #e8eeef;
+  border-radius: 5px;
+}
+
+/*.flexedOptions {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}*/
+
+
+
+/****************** Submit Button  ********************/
+
+a.button {
+    display: block;
+    background-color: #369;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em auto;
+    width: 94%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+
+
